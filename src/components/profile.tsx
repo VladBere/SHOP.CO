@@ -7,7 +7,7 @@ export const Profile = () => {
 
   const accessToken = localStorage.getItem("accessToken")
 
-  const {data: user, isLoading} = useGetAuthentificatedUserQuery(accessToken)  
+  const {data: user} = useGetAuthentificatedUserQuery(accessToken)  
 
   console.log(user);
     
