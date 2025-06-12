@@ -22,8 +22,6 @@ export const ProductPage = () => {
     }
   }, [product]);
 
-  console.log(product?.reviews);
-
   return (
     <div className="flex justify-center">
       <div className="mb-[120px] w-[1376px]">

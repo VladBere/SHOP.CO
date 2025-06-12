@@ -1,5 +1,4 @@
 import { Button } from "../ui/button";
-// import { RangeSlider } from "../ui/range-slider";
 
 export const Hero = () => {
   return (
@@ -38,7 +37,7 @@ export const Hero = () => {
             </div>
             <div className="h-[663px] flex items-end">
               <img
-                src="/src/assets/images/home.png"
+                src="https://ik.imagekit.io/6avpcf5fl/home.png?updatedAt=1749739941252"
                 alt=""
                 className="bottom-0 h-[600px]"
               />
@@ -46,32 +45,36 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      {/* <RangeSlider /> */}
       <div className="bg-black h-[122px] flex justify-center">
         <div className="flex items-center justify-between flex-wrap h-[122px] w-[1376px]">
           <img
             className="h-[38px]"
-            src="/src/assets/logos/versace-logo.png"
+            src="https://ik.imagekit.io/6avpcf5fl/versace-logo.png?updatedAt=1749739998216"
+            // src="/src/assets/logos/versace-logo.png"
             alt=""
           />
           <img
             className="h-[38px]"
-            src="/src/assets/logos/zara-logo.png"
+            src="https://ik.imagekit.io/6avpcf5fl/zara-logo.png?updatedAt=1749739998180"
+            // src="/src/assets/logos/zara-logo.png"
             alt=""
           />
           <img
             className="h-[38px]"
-            src="/src/assets/logos/gucci-logo.png"
+            src="https://ik.imagekit.io/6avpcf5fl/gucci-logo.png?updatedAt=1749739998208"
+            // src="/src/assets/logos/gucci-logo.png"
             alt=""
           />
           <img
             className="h-[38px]"
-            src="/src/assets/logos/prada-logo.png"
+            src="https://ik.imagekit.io/6avpcf5fl/prada-logo.png?updatedAt=1749739998224"
+            // src="/src/assets/logos/prada-logo.png"
             alt=""
           />
           <img
             className="h-[38px]"
-            src="/src/assets/logos/calvin-klein-logo.png"
+            src="https://ik.imagekit.io/6avpcf5fl/calvin-klein-logo.png?updatedAt=1749739998259"
+            // src="/src/assets/logos/calvin-klein-logo.png"
             alt=""
           />
         </div>
