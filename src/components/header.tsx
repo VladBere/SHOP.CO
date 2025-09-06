@@ -78,7 +78,7 @@ export const Header = () => {
             <BrandsPopover />
           </nav>
           <div className="bg-secondaryBg relative flex w-[577px] h-[48px] p-4 items-center rounded-[22px] gap-2">
-            <Input onChange={handleSearch} className="border-none z-10 shadow-none scale-105"></Input>
+            <Input onChange={handleSearch} placeholder="Search..." className="border-none z-10 shadow-none scale-105"></Input>
             {isSearching ? (
               <div className="rounded-lg overflow-hidden bg-secondaryBg flex flex-col w-[573px] h-[300px] absolute top-[50px] z-0 left-[2px] shadow-md border-x-2 border-black/10 shadow-black/30">
                 <div className="overflow-y-scroll">
