@@ -29,6 +29,13 @@ const productApi = productsApi.injectEndpoints({
         return `/products/${id}`;
       },
     }),
+    getSearchProducts: builder.mutation<ProductData, Partial<string>>({
+      query: (searchTitle) => {
+        console.log();
+        
+        return `https://dummyjson.com/products/search?q=${searchTitle}`
+      }
+    })
   }),
 });
 
@@ -36,4 +43,5 @@ export const {
   useGetProductsQuery,
   useGetCategoriesQuery,
   useGetSingleProductQuery,
+  useGetSearchProductsMutation,
 } = productApi;

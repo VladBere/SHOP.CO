@@ -8,7 +8,9 @@ import { Toaster } from "./components/ui/sonner";
 export const Layout = () => {
   return (
     <div>
-      <Header />
+      <div>
+        <Header />
+      </div>
       <main className="">
         <ErrorBoundary fallback={<ErrorPage />}>
           <Outlet />

@@ -35,7 +35,7 @@ const SelectSchema = z.object({
 export const ShopSheetForm = () => {
   const navigate = useNavigate();
 
-  const { setPagination, setTogglePag} = useStore();
+  const { setPagination, setTogglePag } = useStore();
 
   const { setBrandsZustand } = useStore();
 
